@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <link rel="stylesheet" href="./style-night.css" id="theme">
+        <title>Mastermind - JS</title>
+    </head>
+
+    <body>
+        <div id="root">
+            <header class="header">
+
+
+            <div class="header__top">
+              <div class="header__left"></div>
+              <div class="header__center">
+                <h1 class="header__title"></h1>
+              </div>
+              <span class="header__right circle circle__game--white" onclick="theme.switchTheme()" />
+            </div> 
+            
+            <div class="header__bot">
+              
+            </div>
+            </header>
+
+            <main id="boardGame" class=".boardGame">
+              <div class="main__top">
+
+                <div class="init">
+                  <button
+                      id="startNewGame"
+                      type="button"
+                  > Start 
+                </button>
+
+                  <button
+                    type="button"
+                  > Option
+                  </button>
+                </div>
+
+              </div>
+            
+            <div class="main__center">     
+            </div>
+            <div class="main__bottom">
+            </div>
+            </main>
+
+            <footer class="footer">
+              <div class="footer__left"></div>
+              <div class="footer__center">
+                <h3 class="footer__title">--- ---- ---</h3>
+              </div>
+              <div class="footer__right"></div>
+            </footer>
+
+        </div>
+        <script src="theme.js"></script>
+        <script src="selectors.js"></script>
+        <script src="index.js"></script>
+        
+    </body>
+    
+
+    <template id="empty-mastermind">
+      
+          
+        <div class="mastermind__template">
+
+          <div class="mastermind__left">
+
+          </div>
+
+          <div class="mastermind__center">
+
+          </div>
+
+          <div class="mastermind__right">
+
+            <span
+              id=validTry
+            >
+              valider
+            </span>
+
+          </div>
+
+        </div>
+
+      </template>
+
+</html>
