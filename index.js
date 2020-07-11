@@ -6,7 +6,7 @@ const app = {
     // nbPossibilities 4 to 6 it's recommended
     nbPossibilities: 4,
     
-    // With 4 Possibilities if u put 8 colors you can resolve it in 8 tries if u put 10, 10 tries max.
+    // With 4 Possibilities, if u put 8 colors you can resolve it in 8 tries if u put 10 colors, 10 tries max.
     // if u put 6 possibilities i recommend u to put a max of 8 nbTries.
     nbTries: 10,
 
@@ -20,7 +20,6 @@ const app = {
 
     colorsShow: false,
     userPlay: [],
-    userTemplate: {},
     solution: [],
     startGame: false,
     userWin: false,
