@@ -37,7 +37,6 @@ const app = {
 
         if (!app.userPlay.length){
             let startNewGame = document.querySelector('#startNewGame');
-
             startNewGame.addEventListener('click', app.startNewGame);
 
         }else{
@@ -168,7 +167,7 @@ const app = {
 
 
     /**
-     * 
+     * Clean html and call fonction to create the board
      */
     generateBoardGame: function () {
         console.log('generateBoardGame');
@@ -216,6 +215,11 @@ const app = {
     },
 
 
+    /**
+     * 
+     * hide the colors selection
+     * make this with hide class; Maybe...
+     */
     cleanColorsPalette: function () {
 
         console.log('cleanColorsPalette');
@@ -429,6 +433,9 @@ const app = {
     },
 
 
+    /**
+     * Display solution on the header when user loose or win.
+     */
     displaySolution: function () {
 
         console.log('displaySolution');

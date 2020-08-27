@@ -1,5 +1,10 @@
 const selectors = {
 
+    /**
+     * Allow u to mix array values
+     * 
+     * @param {array} tab 
+     */
     randomize: function(tab) {
         let i, j, tmp;
 
@@ -12,6 +17,7 @@ const selectors = {
 
         return tab;
     },
+
 
     randomNumber: function (maximumNumber, minimumNumber) {
         return Math.floor(Math.random() * (maximumNumber - minimumNumber + 0)) + minimumNumber;

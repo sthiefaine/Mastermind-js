@@ -3,7 +3,7 @@
 ## Online demo available at: [Mastermind Javascript](https://thiefainedev.000webhostapp.com/)
 
 
-The website can have some css troubles cause i'm updating it to try new things.
+The online demo can have some css troubles cause i'm updating it to try new things.
 
 It's mobile first website.
 
@@ -11,9 +11,7 @@ A **night mode** is used by default but you can switch to the white theme if u *
 
 This mastermind will be adapted in react.
 
-
 ## Configuration
-
 
 You can edit these value into the index.js file.
 
